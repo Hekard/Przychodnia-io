@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Strona główna</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<style>
+
+    p {
+        font-family: "Verdana", Geneva, sans-serif;
+        color: orange;
+    }
+
+    h2
+    {
+        font-family: "Verdana", Geneva, sans-serif;
+        color: orange;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    h3
+    {
+        font-family: "Verdana", Geneva, sans-serif;
+        color: mediumpurple;
+        font-weight: bold;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    #srodek {
+        background: #ddccff;
+        margin-top: 30px;
+        height: 300px;
+        border: 3px solid orange;
+    }
+
+    .btn-group {
+        text-align: center;
+        float: right;
+    }
+
+    button {
+        border: 3px solid orange;
+        margin: 10px;
+    }
+
+    #doktor-zdj {
+        border: 3px solid orange;
+        width: 230px;
+        left: 37%;
+        top: 180px;
+        position: absolute;
+    }
+
+    #tekst-info {
+        margin-left: 30px;
+        margin-top: 80px;
+    }
+
+    #info-l, #info-2 {
+        background: #ffffe6;
+        border: 1px solid lightgray;
+        height: 220px;
+        margin-left: 30px;
+        margin-top: 150px;
+        overflow: auto;
+        padding: 30px;
+    }
+
+</style>
+
+<script>
+
+    function myFunction1() {
+        window.location.href = "rejestracja.html";
+    }
+
+
+</script>
+
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-xl-1">
+        </div>
+
+        <div class="col-xl-10" id="srodek">
+
+            <div class="btn-group">
+                <button type="button" id="logowanie"> Zaloguj się</button>
+                <button type="button" id="rejestracja"> Zarejestruj się</button>
+
+            </div>
+
+            <div id="tekst-info">
+                <h2>Przychodnia Dobra Szansa</h2>
+                <p><br>Wesoła 15a, Białystok<br>tel. 648 937 123 </p>
+            </div>
+
+            <div id="doktor-div">
+                <img src="doctor.jpg" id="doktor-zdj">
+            </div>
+
+        </div>
+        <div class="col-xl-2">
+        </div>
+
+    </div>
+</div>
+
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-xl-1">
+        </div>
+
+        <div class="col-xl-4" id="info-l" class="info">
+            <h3>Nasza strona</h3>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+        </div>
+
+        <div class="col-xl-1">
+        </div>
+
+        <div class="col-xl-4" id="info-2" class="info">
+            <h3>Jak umówić wizytę?</h3>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+        </div>
+
+        <div class="col-xl-2">
+        </div>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
